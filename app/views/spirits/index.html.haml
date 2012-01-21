@@ -1,0 +1,8 @@
+:javascript
+  $(function() {
+    window.router = new Spirits.Routers.SpiritsRouter({spirits: #{@spirits.to_json.html_safe}});
+    Backbone.history.start();
+  });
+
+#spirit
+#spirits

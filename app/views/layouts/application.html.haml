@@ -1,0 +1,31 @@
+!!!
+%html
+  %head
+    %title= Spirits
+    = stylesheet_link_tag "bootstrap"
+    = stylesheet_link_tag "application"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+
+  %body
+    .topbar
+      .topbar-inner
+        .container-fluid
+          = link_to "Range Spirit Guide", spirits_path, :class => :brand
+          %ul.nav
+            %li= link_to "Add Spirit", new_spirit_path
+    .container-fluid
+      #content{"data-pjax-container" => true}
+        %br
+        %br
+        %br
+        -#= form_for Spirit.new, :remote => true do |form|
+        -#  .clearfix
+        -#    = form.label :category
+        -#    = form.text_field :category
+        -#  .clearfix
+        -#    = form.label :name
+        -#    = form.text_field :name
+        -#  .clearfix
+        -#    = form.submit "Submit"
+        = yield

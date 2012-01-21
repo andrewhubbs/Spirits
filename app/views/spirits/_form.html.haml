@@ -1,0 +1,40 @@
+= form_for @spirit do |f|
+  -if @spirit.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@spirit.errors.count, "error")} prohibited this spirit from being saved:"
+      %ul
+        - @spirit.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :category
+    = f.text_field :category
+  .field
+    = f.label :name
+    = f.text_field :name
+  .field
+    = f.label :base
+    = f.text_field :base
+  .field
+    = f.label :methodology
+    = f.text_field :methodology
+  .field
+    = f.label :age
+    = f.text_field :age
+  .field
+    = f.label :proof
+    = f.number_field :proof
+  .field
+    = f.label :producer
+    = f.text_field :producer
+  .field
+    = f.label :location
+    = f.text_field :location
+  .field
+    = f.label :miscellaneous
+    = f.text_area :miscellaneous
+  .field
+    = f.label :description
+    = f.text_area :description
+  .actions
+    = f.submit 'Save'

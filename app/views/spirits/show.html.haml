@@ -1,0 +1,36 @@
+%p#notice= notice
+
+%p
+  %b Category:
+  = @spirit.category
+%p
+  %b Name:
+  = @spirit.name
+%p
+  %b Base:
+  = @spirit.base
+%p
+  %b Methodology:
+  = @spirit.methodology
+%p
+  %b Age:
+  = @spirit.age
+%p
+  %b Proof:
+  = @spirit.proof
+%p
+  %b Producer:
+  = @spirit.producer
+%p
+  %b Location:
+  = @spirit.location
+%p
+  %b Miscellaneous:
+  = @spirit.miscellaneous
+%p
+  %b Description:
+  = @spirit.description
+
+= link_to 'Edit', edit_spirit_path(@spirit)
+\|
+= link_to 'Back', spirits_path
