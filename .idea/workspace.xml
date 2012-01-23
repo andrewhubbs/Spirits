@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dee0a20-cb5c-4fa5-85b3-bb024cbc1c5e" name="Default" comment="" />
+    <list default="true" id="2dee0a20-cb5c-4fa5-85b3-bb024cbc1c5e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/spirits/edit_view.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/spirits/edit_view.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/spirits_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/spirits_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/spirits/index.html.haml" afterPath="$PROJECT_DIR$/app/views/spirits/index.html.haml" />
+    </list>
     <ignored path="range-spirits.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_view.js.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="edit_view.js.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/views/spirits/edit_view.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="14" selection-start="393" selection-end="393" vertical-scroll-proportion="0.44755244">
+            <state line="17" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,7 +102,7 @@
       <file leaf-file-name="spirits_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/spirits_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="9" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+            <state line="48" column="27" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -123,10 +128,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="36" selection-start="531" selection-end="806" vertical-scroll-proportion="0.0">
+            <state line="20" column="54" selection-start="573" selection-end="573" vertical-scroll-proportion="0.5314685">
               <folding />
             </state>
           </provider>
@@ -153,7 +158,7 @@
       <file leaf-file-name="edit.jst.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/templates/spirits/edit.jst.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="21" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+            <state line="25" column="63" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -198,7 +203,7 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/spirits/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="8" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -226,13 +231,13 @@
         <option value="$PROJECT_DIR$/vendor/assets/javascripts/jquery.tablesorter.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/spirits/index.jst.ejs" />
-        <option value="$PROJECT_DIR$/app/controllers/spirits_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/routers/spirits_router.js.coffee" />
-        <option value="$PROJECT_DIR$/app/views/spirits/index.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/views/spirits/spirit_view.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/models/spirit.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/views/spirits/index_view.js.coffee" />
+        <option value="$PROJECT_DIR$/app/views/spirits/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/spirits_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/views/spirits/edit_view.js.coffee" />
       </list>
     </option>
@@ -1196,13 +1201,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/spirits_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="9" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/templates/spirits/index.jst.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="24" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
@@ -1213,20 +1211,6 @@
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/templates/spirits/new.jst.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="66" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="36" selection-start="531" selection-end="806" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/templates/spirits/edit.jst.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="21" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1245,20 +1229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spirits/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/views/spirits/spirit_view.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/routers/spirits_router.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="12" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
@@ -1273,6 +1243,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spirits/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/views/spirits/index_view.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="44" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
@@ -1280,9 +1257,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/views/spirits/spirit_view.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/templates/spirits/edit.jst.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="63" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/spirits_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="27" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/views/spirits/edit_view.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="393" selection-end="393" vertical-scroll-proportion="0.44755244">
+        <state line="17" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="54" selection-start="573" selection-end="573" vertical-scroll-proportion="0.5314685">
           <folding />
         </state>
       </provider>

@@ -14,12 +14,11 @@ class Spirits.Views.Spirits.EditView extends Backbone.View
       success : (spirit) =>
         @model = spirit
         window.location.hash = "/#{@model.id}"
-        window.$("#spirit").hide()
+        $("#spirit").slideUp()
     )
 
   render : ->
-    $(@el).html(@template(@model.toJSON() ))
-    $(@el).show();
+    $(@el).html(@template(@model.toJSON() )).slideDown()
 
     this.$("form").backboneLink(@model)
 

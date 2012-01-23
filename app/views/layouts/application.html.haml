@@ -5,6 +5,11 @@
     = stylesheet_link_tag "bootstrap"
     = stylesheet_link_tag "application"
     = javascript_include_tag "application"
+    :javascript
+      $(function() {
+        window.router = new Spirits.Routers.SpiritsRouter({spirits: #{@spirits.to_json.html_safe}});
+        Backbone.history.start();
+      });
     = csrf_meta_tags
 
   %body
@@ -19,13 +24,8 @@
         %br
         %br
         %br
-        -#= form_for Spirit.new, :remote => true do |form|
-        -#  .clearfix
-        -#    = form.label :category
-        -#    = form.text_field :category
-        -#  .clearfix
-        -#    = form.label :name
-        -#    = form.text_field :name
-        -#  .clearfix
-        -#    = form.submit "Submit"
+        #notice
+        #spirit
+        #spirits
+
         = yield

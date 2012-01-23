@@ -46,9 +46,10 @@ class SpiritsController < ApplicationController
 
   def update
     @spirit = Spirit.find(params[:id])
-
+    attrs = params[:spirit]
+    attrs.delete("id")
     respond_to do |format|
-      if @spirit.update_attributes(params[:spirit])
+      if @spirit.update_attributes(attrs)
         format.html { redirect_to @spirit, :notice => 'Spirit was successfully updated.' }
         format.json { head :ok }
       else
